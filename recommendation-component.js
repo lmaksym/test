@@ -107,7 +107,7 @@ class RecommendationComponent extends HTMLElement {
     `).join('');
 
     this.shadowRoot.innerHTML = `${styles}
-      <div class="recommendation-component">
+      <div class="bytes-recommendation-component">
         ${productHtml}
       </div>
     `;
