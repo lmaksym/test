@@ -33,7 +33,7 @@ class RecommendationComponent extends HTMLElement {
   connectedCallback() {
     const styles = `
       <style>
-        .recommendation-component {
+        .bytes-recommendation-component {
           display: flex;
           justify-content: space-around;
           align-items: stretch;
@@ -114,4 +114,4 @@ class RecommendationComponent extends HTMLElement {
   }
 }
 
-customElements.define('recommendation-component', RecommendationComponent);
+customElements.define('bytes-recommendation-component', RecommendationComponent);
